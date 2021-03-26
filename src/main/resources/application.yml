@@ -1,0 +1,10 @@
+spring:
+  mail:
+    host: localhost
+    port: 3025
+    username: user
+    password: pass
+    properties:
+      mail.transport.protocol: smtp
+      mail.smtp.auth: true
+      mail.starttls.enable: false
